@@ -1,20 +1,14 @@
 source 'https://rubygems.org'
 
+group :jekyll_plugins do
+  
+  gem 'jekyll'
+  gem 'jekyll-feed'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-redirect-from'
+  gem 'jemoji'
+  gem 'webrick', '~> 1.8'
+end
 
-gem "jekyll", "~> 4.4.1"
-gem "jekyll-paginate", "~> 1.1"
-gem "jekyll-sass-converter", "~> 3.1"
-gem "jekyll-seo-tag", "~> 2.7"
-gem "jekyll-feed", "~> 0.15"
-gem "kramdown", "~> 2.3"
-gem "mercenary", "~> 0.4.0"
-gem "rouge", "~> 4.5.1"
-gem "webrick", "~> 1.9.1"
-gem "i18n", "~> 1.14.7"
-gem "csv", "~> 3.3.4"
-gem "terminal-table", "~> 3.0.2"
-gem "json", "~> 2.11.3"
-gem "public_suffix", "~> 6.0.1"
-gem "concurrent-ruby", "~> 1.3.5"
-gem "rexml", "~> 3.4.1"
-gem "unicode-display_width", "~> 2.6.0"
+gem 'github-pages'
+
