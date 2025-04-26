@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Raihane's Blog
 tagline:          'My math + thoughts blog'
-url:              http://raihaen.github.io
+url:              https://raihaen.github.io
 baseurl:          /
 
 author:
@@ -22,4 +22,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/raihaen/raihaen.github.io
