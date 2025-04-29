@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 4"
+title: "Combi I - Contest Trick"
 collection: publications
 category: Combinatorics
 permalink: /publication/2024-04-28-Contests-Trick
