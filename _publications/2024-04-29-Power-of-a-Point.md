@@ -9,4 +9,7 @@ paperurl: 'http://raihaen.github.io/files/Handouts/Geo/GEO-PoP_Summer_Camp-08202
 ---
 
 Shared during an online summer camp for the AMO team.
-[View PDF](http://raihaen.github.io/files/Handouts/Geo/GEO-PoP_Summer_Camp-082023.pdf)
+
+<iframe src="http://raihaen.github.io/files/Handouts/Geo/GEO-PoP_Summer_Camp-082023.pdf" width="100%" height="500px">
+</iframe>
+
