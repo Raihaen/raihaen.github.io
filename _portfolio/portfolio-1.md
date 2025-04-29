@@ -1,6 +1,6 @@
 ---
 title: "Calculating volatility values for tickers"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/IV.png'>"
+excerpt: "an app that implements various volatility modes in real time : SSVI, SABR, IV. <br/><img src='/images/IV.png'>"
 collection: portfolio
 ---
 
