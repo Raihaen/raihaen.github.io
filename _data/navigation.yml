@@ -30,5 +30,5 @@ main:
     url: /files/CV/Raihane-Sidhoum-Resume.pdf
     target: _blank
     
-  - title: "Guide"
-    url: /markdown/
+  # - title: "Guide"
+  #   url: /markdown/
