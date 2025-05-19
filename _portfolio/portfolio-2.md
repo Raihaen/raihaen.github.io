@@ -6,7 +6,7 @@ collection: portfolio
 
 [Check the following repo.](https://github.com/Raihaen/Note-taking).
 
-I made this (and planning to update it) because it allows me to avoid distractions and optimizing for the sake of optimizing (like I do with notion or obisidian).
+I made this (and planning to update it) because it allows me to avoid distractions and optimizing for the sake of optimizing (like I do with notion or obisidian). This is basically the same as using VS code but a tiny bit more convinient for me.
 I also created a custom command on my ```wsl``` Linux to directly lauch it on my computer. I'm planning on eventually hosting it online with a password check to access my notes from anywhere.
 I might also add more file formats (mainly ```.csv```) and other stuff, but it won't be very sophisticated.
 
