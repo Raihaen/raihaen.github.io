@@ -26,7 +26,7 @@ The levels i found the hardest are : Level 5, level 7 and level 6. Please share 
 
 Here are some images :
 <br>
-<br/><img src='/images/pushingit/Screenshot 2025-05-18 205022.png'>
-<img src='/images/pushingit/Screenshot 2025-05-18 205240.png'> <img src='/images/pushingit/Screenshot 2025-05-18 210216.png'>
+<br/><img src='/images/Screenshot 2025-05-18 205022.png'>
+<img src='/images/Screenshot 2025-05-18 205240.png'> <img src='/images/Screenshot 2025-05-18 210216.png'>
 
  
