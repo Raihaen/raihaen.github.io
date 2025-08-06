@@ -9,6 +9,6 @@ The idea was basically an interface with a chat, a window to upload your files a
 This was done by prompting Claude with the necessary info on how to turn the user's request into an operational research problem and generate a script to solve it and return a `.csv` file (using google's OR tools mainly). The ai can also ask the user about any missing info he encouters (making this work was a bit tricky).
 Once the code is ready, it would be run in the background and shown to the user in a fancy way.
 
-You can find the repo on my github (or comeback to this page in a few days and maybe I'll have added a link by then).
+I worked on this project alongside [Abhishev Thomas](https://www.linkedin.com/in/dcrey7).
 
-I worked on this project alongside Abhishev Thomas.
+You can find the repo on my github (update : I made it private to work on a newer version for a different competition).
