@@ -6,4 +6,7 @@ tags:
   - cool posts
 ---
 
-Why do we write ?
+I just wanted to share a few essays I really loved (Will be updated everytime I find a good one).
+- Paul Graham :
+  - [What you'll wish you'd known](https://www.paulgraham.com/hs.html)
+  - [How to do great work](https://www.paulgraham.com/greatwork.html)
