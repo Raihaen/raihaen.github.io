@@ -3,15 +3,6 @@ title: "ESL Notes"
 sitemap: false
 permalink: /Notes/ESL
 ---
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>ESL Notes</title>
-</head>
-<body>
-
 <div id="notes"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -24,6 +15,7 @@ window.MathJax = {
 </script>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<!-- Paste your Markdown here -->
 <script id="markdown-content" type="text/markdown">
 # Elements of Statistical Learning
 **Disclaimer:** If you're reading this on github, the latex might not be showing well, run the file on your local `.md` reader for a better experience.
@@ -338,10 +330,13 @@ $\text{Var}(\epsilon) +  \text{Var}(\hat f(x_0)) + [\text{Bias}(\hat f(x_0))]^2$
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const md = document.getElementById('markdown-content').textContent;
+
+  // Do NOT use breaks: true
   document.getElementById('notes').innerHTML = marked.parse(md);
-  MathJax.typesetPromise().catch(err => console.error(err));
+
+  // Wait a tiny bit to ensure HTML is inserted before MathJax runs
+  requestAnimationFrame(() => MathJax.typesetPromise()
+    .catch(err => console.error(err))
+  );
 });
 </script>
-
-</body>
-</html>
