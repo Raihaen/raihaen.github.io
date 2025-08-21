@@ -4,6 +4,30 @@ sitemap: false
 permalink: /Notes/ESL
 ---
 
+<div id="notes"></div>
+
+<!-- Marked.js -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<!-- MathJax config -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$']]
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  startup: {
+    typeset: false
+  }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- Large Markdown content -->
+<script id="markdown-content" type="text/markdown">
 # Elements of Statistical Learning
 **Disclaimer:** If you're reading this on github, the latex might not be showing well, run the file on your local `.md` reader for a better experience.
 
@@ -312,3 +336,26 @@ $\text{Var}(\epsilon) +  \text{Var}(\hat f(x_0)) + [\text{Bias}(\hat f(x_0))]^2$
 - [^19] In the book the author's formula is (the equivalent of) $K+M$, BUT in the example he provides, he says it's a linear splines but says that $K$ (of the degree)  $= 2$, either it's a typo or a just how degrees are defined for splines, our two formulas are equivalent eitherway.
 - [^20] for example, if $h_1(x_1)$ and $h_2(x_2)$ are two basis functions then the tensor product $h_1(x_1) h_2(x_2)$ is a two-dimensional basis function.
 - [^21] a formula for $EPE_k(x_0)$ of KNN was also derived but it's done very trivially so why waste time ?
+</script>
+
+<script>
+function renderNotes() {
+  try {
+    const md = document.getElementById('markdown-content').textContent;
+    const html = marked.parse(md);
+    const notesDiv = document.getElementById('notes');
+    notesDiv.innerHTML = html;
+
+    // Wait a tick to ensure HTML is fully inserted
+    requestAnimationFrame(() => {
+      MathJax.typesetPromise()
+        .then(() => console.log('MathJax rendered'))
+        .catch(err => console.error('MathJax error:', err));
+    });
+  } catch(e) {
+    console.error('Rendering error:', e);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', renderNotes);
+</script>
