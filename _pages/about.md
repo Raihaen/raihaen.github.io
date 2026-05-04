@@ -48,6 +48,6 @@ For more info
 ------
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
 
-This is the homepage of Raihane Sidhoum, also known by my screen name **Twan**. I try to post about my intrests and findings, this includes puzzles, math olympiads and cooking.
+This is the homepage of Raihane Sidhoum / *Twan*. I like puzzle games, math and cooking.
 
-I have nothing else to add for now, except that I like playing Go and that my fav subjects are Geometry and Combinatorics; will try to update this soon.
+If you are one of those annoying recruters that contact anyone with an olympiad background, please do not contact me :) 
