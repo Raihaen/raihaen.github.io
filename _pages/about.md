@@ -49,3 +49,7 @@ For more info
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
 
 This is the homepage of Raihane Sidhoum. I like puzzle games, math and cooking.
+
+My most recent blog is on AI risks and which risk I find the most concerning, you can check it out [here](https://raihaen.github.io/posts/2026/09/aisafety/).
+
+You can also find some math olympiad handouts in the [teaching](https://raihaen.github.io/teaching/) page.
